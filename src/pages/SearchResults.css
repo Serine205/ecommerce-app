@@ -1,0 +1,23 @@
+/* src/pages/SearchResults.css */
+.search-results {
+    padding: 30px 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.search-results h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #3e2b1b;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+}
+
+.no-results {
+    color: #b83e3e;
+    font-weight: bold;
+    margin-top: 20px;
+}
